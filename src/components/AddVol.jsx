@@ -76,8 +76,8 @@ const AddVol = () => {
                                 <label htmlFor="" className="form-label">Gender</label>
                                 <select name="" id="" className="form-control" name="gender" value={input.gender} onChange={inputHandler} >
                                     <option value="">Select</option>
-                                    <option value="">Female</option>
-                                    <option value="">Male</option>
+                                    <option value="Female">Female</option>
+                                    <option value="Male">Male</option>
                                 </select>
                             </div>
                             <div className="col col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
